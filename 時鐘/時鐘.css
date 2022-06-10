@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+    
+body {
+    background-color: rgb(250, 247, 247);
+    height: 100vh;
+}
+
+.container-clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 3px solid rgb(35, 203, 245);
+    color: rgb(35, 203, 245);
+    width: 340px;
+    padding: 10px 50px;
+    border-radius: 40px 800px;
+    transition: 0.5s;
+}
+
+.container-clock:hover {
+    background-color: rgb(35, 203, 245);
+    color: black;
+    box-shadow: 0 0 1000px rgb(35, 203, 245);
+}
+
+.time {
+    font-size: 50px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.date {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#period {
+    font-size: 20px;
+}
